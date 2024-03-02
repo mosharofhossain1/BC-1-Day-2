@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boocamp 1 Day 2 </title>
+    <style>
+        h1{
+            text-align: center;
+            border: 1px solid skyblue;
+            width: 300px;
+            margin: 20px auto;
+        }
+        .loginBox{
+            width: 700px;
+            margin: auto;
+            border: 2px solid gray;
+            padding: 20px;
+        }
+        textarea{
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>BootCamp 1 Day 2 </h1>
-    
+
+
+    <div class="loginBox"> 
+        <form action=""> 
+            <h2>Submit Your Personal Info</h2>
+             <label for="">Your Phone Number: 
+                <input type="number" placeholder="Enter Your Number"><br><br>
+             </label>
+            
+        <label for="">Your Email : <input type="email" placeholder="enter Your Email"><br><br></label>
+
+        <h2>Your Gender</h2>
+        <label for="male">
+
+            <input type="radio" name="gender" id="male">Male 
+        </label>
+        <label for="female">
+
+            <input type="radio" name="gender" id="female">Female
+        </label>
+        <br><br>
+        <h2>Your Favorite Color</h2>
+        <label for="red">
+            <input type="checkbox" name="" id="red">Red
+        </label>
+        <label for="black">
+            <input type="checkbox" name="" id="black">Black
+        </label>
+        <label for="yellow">
+            <input type="checkbox" name="" id="yellow">Yellow
+        </label>
+        <label for="skyblue">
+              <input type="checkbox" name="" id="skyblue">SkyBlue
+        </label>
+      
+        <label for="orange"> <input type="checkbox" name="" id="orange">Orange</label>
+       
+<br><br>
+
+<h2>Your Country</h2>
+<select name="" id="">
+    <option value="select">Select Country</option>
+    <option value="bd">Bangladesh</option>
+    <option value="bd">Srilanka</option>
+    <option value="bd">Pakistan</option>
+    <option value="bd">Uganda</option>
+    <option value="bd">Soudi Arab</option>
+</select>
+<br>
+<br>
+<h2>Upload Your Profile </h2>
+<input type="file" name="" id="">
+<br><br>
+<textarea name="" id="" cols="30" rows="5" placeholder="What's On Your Mind...."></textarea>
+<br><br>
+<input type="reset" value="Customize"><br><br>
+        <input type="button" value="LogIn">
+        </form>
+
+    </div>
 </body>
 </html>
